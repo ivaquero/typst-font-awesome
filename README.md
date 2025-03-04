@@ -1,4 +1,4 @@
-# Typst-font-awesome
+# Typst-Font-Awesome
 
 ![code size](https://img.shields.io/github/languages/code-size/ivaquero/typst-font-awesome.svg)
 ![repo size](https://img.shields.io/github/repo-size/ivaquero/typst-font-awesome.svg)
@@ -7,7 +7,7 @@ Offline [FontAwesome](https://fontawesome.com/) Binding for [Typst](https://typs
 
 ## Usage
 
-1. Download the fontawesome latest desktop version from [FontAwesome Official Site](https://github.com/FortAwesome/Font-Awesome/releases), unzip it into your workspace folder, and rename it as `fontawesome`.
+1. Download the fontawesome latest desktop version from [FontAwesome Official Site](https://github.com/FortAwesome/Font-Awesome/releases), unzip it and move the `svgs` folder into your workspace folder, and rename `svgs` as `fontawesome`.
 2. Download the `font-awesome.typ` file, and place it into your workspace folder as well.
 3. Import it into your Typst file, and use it with `fa()` function like the following example
 
