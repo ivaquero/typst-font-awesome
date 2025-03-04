@@ -35,6 +35,10 @@ Checkup [manual](https://github.com/ivaquero/typst-font-awesome/blob/main/manual
 
 ## Changelog
 
+### v0.2.0 (2025-03-03)
+
+- update fontawesome to v6.7.2
+
 ### v0.1.0 (2023-08-28)
 
 - update fontawesome to v6.5.1

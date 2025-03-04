@@ -1,4 +1,4 @@
-#import "fontawesome.typ": *
+#import "font-awesome.typ": *
 
 #let title = "Typst-FontAwesome"
 
