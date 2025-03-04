@@ -5,11 +5,29 @@
 
 Offline [FontAwesome](https://fontawesome.com/) Binding for [Typst](https://typst.app/docs/).
 
-## Usage
+## Download
+
+### Method 1 (recommended)
+
+Clone this repo to your `@local` workspace
+
+```bash
+git clone https://github.com/ivaquero/typst-font-awesome font-awesome
+```
+
+- Linux：
+  - `$XDG_DATA_HOME/typst/packages/local`
+  - `~/.local/share/typst/packages/local`
+- macOS：`~/Library/Application\ Support/typst/packages/local`
+- Windows：`%APPDATA%/typst/packages/local`
+
+### Method 2
 
 1. Download the fontawesome latest desktop version from [FontAwesome Official Site](https://github.com/FortAwesome/Font-Awesome/releases), unzip it and move the `svgs` folder into your workspace folder, and rename `svgs` as `fontawesome`.
 2. Download the `font-awesome.typ` file, and place it into your workspace folder as well.
 3. Import it into your Typst file, and use it with `fa()` function like the following example
+
+## Usage
 
 ```typst
 #import "font-awesome": *
